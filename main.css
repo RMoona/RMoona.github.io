@@ -1,0 +1,148 @@
+﻿body {
+    padding-top: 70px;
+}
+
+.carousel-inner img {
+    margin: auto;
+}
+
+.breadcrumb {
+    background-color: white;
+}
+
+.recent-articles > .row > .col-md-4 {
+    padding: 16px;
+    border-right-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+    overflow: hidden;
+    height: 25vh;
+    font-size: 12px;
+    text-align: justify;
+}
+
+footer {
+    font-size: 10px;
+}
+
+/* aboutUs.html page */
+
+/* Style for the buttons inside the tab */
+.btn {
+    background-color: rgb(248, 248, 248);
+    cursor: pointer;
+}
+
+    /* Style for the active class (and buttons on mouse-over) */
+    .active #myDIV, .btn:hover {
+        background-color: rgb(224, 224, 224);
+        color: white;
+    }
+
+.about {
+    padding: 16px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+    text-align: justify;
+}
+
+.contacts {
+    padding: 16px;
+    margin: 16px;
+}
+
+#map {
+    overflow: hidden;
+    width: 500px;
+    position: relative;
+}
+
+iframe {
+    width: 700px;
+    height: 440px;
+    border: 0;
+}
+
+.input-text {
+    border: 1px, black;
+    outline: 1px, black;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.main-article {
+    border: 1px, black;
+    outline: 1px, black;
+    padding: 10px 16px;
+}
+/* index.html. Fix space between article pictures and the text*/
+.media-object {
+    float: left;
+    margin: 0 16px 16px 0;
+}
+
+/* chat.html */
+
+.chat-window {
+    border-style: solid;
+    border-width: 1px;
+    padding: 16px;
+    height: 50vh;
+    overflow: scroll;
+}
+
+/* remove "space" that the ul gives */
+#chat-text {
+    padding: 0;
+    list-style-type: none;
+}
+
+.user #username {
+    font-weight: bold;
+}
+
+#send-message {
+    float: right;
+}
+
+/* articles.html page*/
+.media {
+    padding: 10px;
+    height: 30vh;
+}
+
+.media-body {
+    display: inline-block;
+    height: auto;
+}
+
+    .media-body > p {
+        text-align: justify;
+    }
+
+.pagination {
+    float: right;
+}
+
+    .pagination a {
+        color: black;
+        padding: 4px 8px;
+        text-decoration: none;
+    }
+
+        .pagination a.active {
+            background-color: lightgrey;
+            color: white;
+        }
+
+        .pagination a:hover:not(.active) {
+            background-color: #ddd;
+        }
+
+/* article1.html */
+.wrapper a {
+    float: left;
+    padding: 8px;
+}
